@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Softimply Video Editing Agency</title>
+    <link rel="icon" type="image/png" href="site-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Softimply</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio" style="padding-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-subtitle">Showcasing our diverse video editing expertise across different genres</p>
+            </div>
+            
+            <div class="portfolio-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">All Work</button>
+                    <button class="category-tab" data-category="onehead">One Head</button>
+                    <button class="category-tab" data-category="podcast">Podcast</button>
+                    <button class="category-tab" data-category="documentary">Documentary</button>
+                    <button class="category-tab" data-category="magnatesmedia">Magnates Media</button>
+                </div>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- One Head Section -->
+                <div class="portfolio-item" data-category="onehead">
+                    <div class="portfolio-video long-video">
+                        <video autoplay loop muted>
+                            <source src="assets/One head  reels/long.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="onehead">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/One head  reels/reels1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="onehead">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/One head  reels/reels2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="onehead">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/One head  reels/reels3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Podcast Section -->
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Podcust reels/reels1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Podcust reels/reels2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Podcust reels/reels3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Podcust reels/reels4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Podcust reels/reels5.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Documentary Section -->
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-video long-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Docemnetary/long.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Docemnetary/reels.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Docemnetary/reels1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/Docemnetary/reels2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Magnates Media Section -->
+                <div class="portfolio-item" data-category="magnatesmedia">
+                    <div class="portfolio-video long-video">
+                        <video autoplay loop muted>
+                            <source src="assets/MagnatesMedia/long1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="magnatesmedia">
+                    <div class="portfolio-video long-video">
+                        <video autoplay loop muted>
+                            <source src="assets/MagnatesMedia/long2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="magnatesmedia">
+                    <div class="portfolio-video long-video">
+                        <video autoplay loop muted>
+                            <source src="assets/MagnatesMedia/long3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="magnatesmedia">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/MagnatesMedia/reels1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="magnatesmedia">
+                    <div class="portfolio-video reels-video">
+                        <video autoplay loop muted>
+                            <source src="assets/MagnatesMedia/reels2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <button id="videoModalClose" class="video-modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <video id="modalVideo" controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Softimply</h3>
+                    <p>Professional video editing agency specializing in creating engaging content that drives results.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#services">Long-Form Video Editing</a></li>
+                        <li><a href="index.html#services">Short-Form Content & Reels</a></li>
+                        <li><a href="index.html#services">Documentary Editing</a></li>
+                        <li><a href="index.html#services">Corporate Videos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:contact@softimply.com">contact@softimply.com</a></li>
+                        <li><a href="index.html#contact">Get Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Softimply. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
